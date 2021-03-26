@@ -1,4 +1,4 @@
-const node = require('@sveltejs/adapter-node');
+const static = require('@sveltejs/adapter-static');
 const pkg = require('./package.json');
 
 /** @type {import('@sveltejs/kit').Config} */
