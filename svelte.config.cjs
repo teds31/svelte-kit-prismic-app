@@ -1,7 +1,5 @@
-21 lines (18 sloc)  550 Bytes
-
-const static = require('@sveltejs/adapter-static')
-const pkg = require('./package.json')
+const static = require('@sveltejs/adapter-static');
+const pkg = require('./package.json');
 
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
