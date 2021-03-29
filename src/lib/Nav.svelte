@@ -5,7 +5,7 @@
 <nav class="container">
 	<div class="menu">
 		{#each links as link}
-			<a href={link.path}>{link.text}</a>
+			<a href={link.path} sveltekit:prefetch>{link.text}</a>
 		{/each}
 	</div>
 </nav>
