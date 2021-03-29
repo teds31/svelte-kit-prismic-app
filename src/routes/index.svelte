@@ -14,14 +14,11 @@
 
 <script>
 	export let document;
-	let title = document.data.title[0].text;
 </script>
 
 <main>
 	<div class="header container" style="background-image: url('{document.data.image.url}')">
-		<h1>
-			{title}
-		</h1>
+		{@html PrismicDom.RichText.asHtml(document.data.title)}
 	</div>
 	<div class="container">
 		<div class="text">
